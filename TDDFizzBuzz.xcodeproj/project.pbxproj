@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D865238D1CEE9576000CC49C /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865238C1CEE9575000CC49C /* Brain.swift */; };
+		D865365F1D05C76500B5465F /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865365E1D05C76500B5465F /* ViewControllerUnitTests.swift */; };
+		D86536611D05DEAB00B5465F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86536601D05DEAB00B5465F /* Utils.swift */; };
+		D86536631D05E67F00B5465F /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86536621D05E67F00B5465F /* ViewControllerUITests.swift */; };
 		D8A4E91E1CF26F48008D24F0 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A4E91D1CF26F48008D24F0 /* GameTests.swift */; };
 		D8A4E9201CF26FE6008D24F0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A4E91F1CF26FE6008D24F0 /* Game.swift */; };
 		D8FCEAB61CEA85E6002D400A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FCEAB51CEA85E6002D400A /* AppDelegate.swift */; };
@@ -15,7 +18,6 @@
 		D8FCEABB1CEA85E6002D400A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FCEAB91CEA85E6002D400A /* Main.storyboard */; };
 		D8FCEABD1CEA85E6002D400A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FCEABC1CEA85E6002D400A /* Assets.xcassets */; };
 		D8FCEAC01CEA85E6002D400A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FCEABE1CEA85E6002D400A /* LaunchScreen.storyboard */; };
-		D8FCEAD61CEA85E6002D400A /* TDDFizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FCEAD51CEA85E6002D400A /* TDDFizzBuzzUITests.swift */; };
 		D8FCEAE41CEABA26002D400A /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FCEAE31CEABA26002D400A /* BrainTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		D865238C1CEE9575000CC49C /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		D865365E1D05C76500B5465F /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
+		D86536601D05DEAB00B5465F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../../../Freela/Utils.swift; sourceTree = "<group>"; };
+		D86536621D05E67F00B5465F /* ViewControllerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
 		D8A4E91D1CF26F48008D24F0 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		D8A4E91F1CF26FE6008D24F0 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D8FCEAB21CEA85E6002D400A /* TDDFizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDFizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +55,6 @@
 		D8FCEAC61CEA85E6002D400A /* TDDFizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDFizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FCEACC1CEA85E6002D400A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8FCEAD11CEA85E6002D400A /* TDDFizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDFizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8FCEAD51CEA85E6002D400A /* TDDFizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDFizzBuzzUITests.swift; sourceTree = "<group>"; };
 		D8FCEAD71CEA85E6002D400A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8FCEAE31CEABA26002D400A /* BrainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +107,7 @@
 		D8FCEAB41CEA85E6002D400A /* TDDFizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				D86536601D05DEAB00B5465F /* Utils.swift */,
 				D8FCEAB51CEA85E6002D400A /* AppDelegate.swift */,
 				D8FCEAB71CEA85E6002D400A /* ViewController.swift */,
 				D8FCEAB91CEA85E6002D400A /* Main.storyboard */,
@@ -121,6 +126,7 @@
 				D8FCEACC1CEA85E6002D400A /* Info.plist */,
 				D8FCEAE31CEABA26002D400A /* BrainTests.swift */,
 				D8A4E91D1CF26F48008D24F0 /* GameTests.swift */,
+				D865365E1D05C76500B5465F /* ViewControllerUnitTests.swift */,
 			);
 			path = TDDFizzBuzzTests;
 			sourceTree = "<group>";
@@ -128,8 +134,8 @@
 		D8FCEAD41CEA85E6002D400A /* TDDFizzBuzzUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D8FCEAD51CEA85E6002D400A /* TDDFizzBuzzUITests.swift */,
 				D8FCEAD71CEA85E6002D400A /* Info.plist */,
+				D86536621D05E67F00B5465F /* ViewControllerUITests.swift */,
 			);
 			path = TDDFizzBuzzUITests;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86536611D05DEAB00B5465F /* Utils.swift in Sources */,
 				D8FCEAB81CEA85E6002D400A /* ViewController.swift in Sources */,
 				D865238D1CEE9576000CC49C /* Brain.swift in Sources */,
 				D8FCEAB61CEA85E6002D400A /* AppDelegate.swift in Sources */,
@@ -278,6 +285,7 @@
 			files = (
 				D8FCEAE41CEABA26002D400A /* BrainTests.swift in Sources */,
 				D8A4E91E1CF26F48008D24F0 /* GameTests.swift in Sources */,
+				D865365F1D05C76500B5465F /* ViewControllerUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8FCEAD61CEA85E6002D400A /* TDDFizzBuzzUITests.swift in Sources */,
+				D86536631D05E67F00B5465F /* ViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,10 +467,12 @@
 		D8FCEAE11CEA85E6002D400A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TDDFizzBuzzUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Renato.TDDFizzBuzzUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_TARGET_NAME = TDDFizzBuzz;
 			};
 			name = Debug;
@@ -470,6 +480,7 @@
 		D8FCEAE21CEA85E6002D400A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TDDFizzBuzzUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Renato.TDDFizzBuzzUITests;
